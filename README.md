@@ -40,11 +40,11 @@ This project demonstrates a **complete backend-to-database workflow** using:
 npm install mysql2 @faker-js/faker
 
 
-### 2️⃣ Start MySQL
+2️⃣ Start MySQL
 sudo service mysql start
 mysql -u root
 
-### 3️⃣ Create Database and Table
+3️⃣ Create Database and Table
 CREATE DATABASE faker_lab;
 USE faker_lab;
 
@@ -54,7 +54,7 @@ CREATE TABLE users (
 );
 
 
-### 🧩 File: db.js
+🧩 File: db.js
 const mysql = require('mysql2');
 
 // 🏊 Create a connection pool (for concurrent queries)
@@ -69,7 +69,7 @@ const pool = mysql.createPool({
 module.exports = pool;
 
 
-### 🧩 File: pool.js
+🧩 File: pool.js
 const { faker } = require('@faker-js/faker');
 const pool = require('./db');
 
