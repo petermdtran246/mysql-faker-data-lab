@@ -33,9 +33,9 @@ This project demonstrates a **complete backend-to-database workflow** using:
 
 ---
 
-## ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
-### 1️⃣ Install Dependencies
+1️⃣ Install Dependencies
 ```bash
 npm install mysql2 @faker-js/faker
 
